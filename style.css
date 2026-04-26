@@ -101,3 +101,18 @@ a {
 .project-links a:hover {
   background: #1d4ed8;
 }
+
+.image-gallery {
+  display: flex;
+  gap: 15px;
+  flex-wrap: wrap;
+  margin: 20px 0;
+}
+
+.image-gallery img {
+  width: 100%;
+  max-width: 420px;
+  border-radius: 12px;
+  display: block;
+  border: 1px solid #e5e7eb;
+}
